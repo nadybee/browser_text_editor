@@ -30,7 +30,7 @@ export const putDb = async (content) => {
 };
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
-  console.error('Error retriving Data failed');
+  // console.error('Error retriving Data failed');
 
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readonly');
